@@ -1,0 +1,14 @@
+html
+  head
+    title Tree Facts
+    style
+      include style.css
+  // to offset the fact submission
+  div(class='header')
+  div(class='fact-submit')
+    form(action='/submit', method='POST')
+      span(class='text') Trees:
+      input(type='text', name='fact')
+      span(class='text')
+      input(type='submit', name='submission', id='declare', value='Make it so')
+  div

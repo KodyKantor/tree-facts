@@ -1,0 +1,20 @@
+* {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: xx-large;
+}
+
+.header {
+  height: 25%;
+}
+
+.text {
+  padding: .3em;
+}
+
+.fact-submit {
+  text-align: center;
+}
+
+#declare {
+  height: 20px;
+}
